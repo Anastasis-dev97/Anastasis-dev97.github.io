@@ -50,6 +50,13 @@ ul {
     padding-left: 20px;
 }
 
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
 footer {
     margin-top: 60px;
     font-size: 0.9em;
