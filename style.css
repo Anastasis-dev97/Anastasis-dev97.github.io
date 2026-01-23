@@ -47,7 +47,11 @@ h2 {
 }
 
 ul {
-    padding-left: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
 }
 
 li a {
@@ -55,6 +59,12 @@ li a {
   color: black;
   padding: 8px 16px;
   text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: white;
 }
 
 footer {
