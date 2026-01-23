@@ -30,7 +30,6 @@ nav {
     padding-left: 10px;
     border-left: 2px solid #ccc;
     display: flex;
-    flex-direction: column;
     border: 1px solid #e7e7e7;
 }
 
