@@ -67,6 +67,11 @@ li a:hover {
   color: white;
 }
 
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
 footer {
     margin-top: 60px;
     font-size: 0.9em;
