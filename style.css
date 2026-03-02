@@ -26,18 +26,22 @@ h1 {
 }
 
 nav {
-    margin-top: 15px;
+    margin-top: 20px;
     padding-left: 10px;
-    border-left: 2px solid #ccc;
     display: flex;
-    border: 1px solid #e7e7e7;
+    justify-content: center;   /* center links horizontally */
+    align-items: center;
+    gap: 40px;                 /* space between links */
 }
 
 
 nav a {
-    margin-right: 15px;
     text-decoration: none;
-    color: #003366;
+    color: #111;
+    font-weight: 500;
+    font-size: 16px;
+    position: relative;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
