@@ -4,39 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anastasios Fotiadis</title>
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .about-layout {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) 240px;
+            gap: 30px;
+            align-items: start;
+            max-width: 850px;
+        }
+
+        .about-text {
+            min-width: 0;
+        }
+
+        .profile-photo {
+            float: none;
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 650px) {
+            .about-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .profile-photo {
+                width: 220px;
+                max-width: 100%;
+            }
+        }
+    </style>
 </head>
+
 <body>
     <div class="page">
-      <nav class="navbar">
-        <a href="index.html">Home</a>
-         <a href="research.html">Research</a>
-         <a href="#contact" >Contact</a>
-     </nav>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    <section id="about">
-        <h1>Anastasios Fotiadis</h1>
-        <img
-    src="DSCF4467.jpg"
-    alt="Anastasios Fotiadis"
-    class="profile-photo"
-       >
-        <p>I am a mathematician working in differential geometry. My research interests include Poisson geometry, singular foliations, higher structures and interactions with infinite dimensional geometry. </p>
-            
-        <p> Since October 2024, I am a PhD student at Universitè Claude Bernard Lyon 1. My advisor is
-        <a href=" https://ryvkin.eu/"> Leonid Ryvkin.</a>
-        </p>
-        <h2>Short Bio</h2>
-        <p>2024-2027: PhD student at <a href="https://www.univ-lyon1.fr/?ksession=d172c6c0-01ee-4b31-b3ad-ab870c32fee4">Université Claude Bernard Lyon 1</a>. <i>Thesis</i>: Infinite dimensional Lie algebras in differential geometry and mathematical physics.
-        <p>2023-2024: M2 in Mathematical Physics, <a href="https://math.ube.fr/math4phys">Math4Phys,</a> at Université de Bourgogne. <i>Thesis</i>:Non-commutative Poisson-vertex and Courant-Dorfman algebras, supervised by <a href="https://mfairon.perso.math.cnrs.fr/"> Maxime Fairon</a>.</p>
-        <p>2021-2023: M. Sc. in Pure Mathematics at Aristotle University of Thessaloniki. <i>Thesis</i>: Curvature and Torsion in Graded Geometry, supervised by <a href="https://sites.google.com/view/panagiotis-batakidis/home">Panagiotis Batakidis</a>.</p>
-        <p>2015-2021: B. Sc. in Mathematics at  Aristotle University of Thessaloniki.</p>
-    </section>
+        <section id="about">
+            <h1>Anastasios Fotiadis</h1>
 
+            <div class="about-layout">
+                <div class="about-text">
+                    <p>
+                        I am a mathematician working in differential geometry.
+                        My research interests include Poisson geometry, singular
+                        foliations, higher structures and interactions with
+                        infinite-dimensional geometry.
+                    </p>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: familyname @ math dot univ-lyon1 dot fr</p>
-    </section>
+                    <p>
+                        Since October 2024, I have been a PhD student at
+                        Université Claude Bernard Lyon 1. My advisor is
+                        <a href="https://ryvkin.eu/">Leonid Ryvkin</a>.
+                    </p>
+
+                    <h2>Short Bio</h2>
+
+                    <p>
+                        2024–2027: PhD student at
+                        <a href="https://www.univ-lyon1.fr/">
+                            Université Claude Bernard Lyon 1</a>.
+                        <i>Thesis</i>: Infinite-dimensional Lie algebras in
+                        differential geometry and mathematical physics.
+                    </p>
+
+                    <p>
+                        2023–2024: M2 in Mathematical Physics,
+                        <a href="https://math.ube.fr/math4phys">Math4Phys</a>,
+                        at Université de Bourgogne.
+                        <i>Thesis</i>: Non-commutative Poisson-vertex and
+                        Courant-Dorfman algebras, supervised by
+                        <a href="https://mfairon.perso.math.cnrs.fr/">
+                            Maxime Fairon</a>.
+                    </p>
+
+                    <p>
+                        2021–2023: M.Sc. in Pure Mathematics at Aristotle
+                        University of Thessaloniki.
+                        <i>Thesis</i>: Curvature and Torsion in Graded Geometry,
+                        supervised by
+                        <a href="https://sites.google.com/view/panagiotis-batakidis/home">
+                            Panagiotis Batakidis</a>.
+                    </p>
+
+                    <p>
+                        2015–2021: B.Sc. in Mathematics at Aristotle University
+                        of Thessaloniki.
+                    </p>
+                </div>
+
+                <img
+                    src="DSCF4467.jpg"
+                    alt="Anastasios Fotiadis"
+                    class="profile-photo"
+                >
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: familyname @ math dot univ-lyon1 dot fr</p>
+        </section>
+    </div>
 </body>
 </html>
