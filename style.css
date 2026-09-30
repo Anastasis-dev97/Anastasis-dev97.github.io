@@ -64,7 +64,7 @@ footer {
 
 .profile-photo {
     float: right;
-    width: 240px;
+    width: 180px;
     max-width: 100%;
     height: auto;
     margin: 0 0 20px 30px;
@@ -79,7 +79,7 @@ footer {
     .profile-photo {
         float: none;
         display: block;
-        width: 220px;
+        width: 180px;
         margin: 0 auto 20px;
     }
 }
