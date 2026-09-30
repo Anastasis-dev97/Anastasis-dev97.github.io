@@ -5,6 +5,7 @@ body {
     line-height: 1.6;
 }
 
+.page,
 .container {
     max-width: 800px;
     margin: 40px auto;
@@ -16,7 +17,7 @@ header {
 }
 
 h1 {
-    margin-bottom: 0;
+    margin-bottom: 20px;
     font-size: 2.2em;
 }
 
@@ -29,18 +30,16 @@ nav {
     margin-top: 20px;
     padding-left: 10px;
     display: flex;
-    justify-content: center;   /* center links horizontally */
+    justify-content: center;
     align-items: center;
-    gap: 40px;                 /* space between links */
+    gap: 40px;
 }
-
 
 nav a {
     text-decoration: none;
     color: #111;
     font-weight: 500;
     font-size: 16px;
-    position: relative;
     transition: color 0.3s ease;
 }
 
@@ -54,16 +53,15 @@ h2 {
     margin-top: 40px;
 }
 
-
-
-footer {
-    margin-top: 60px;
-    font-size: 0.9em;
-    color: #555;
+/* Contains the photo above Short Bio. */
+#about .intro {
+    display: flow-root;
+    padding-right: 40px;
 }
 
-.profile-photo {
+#about .profile-photo {
     float: right;
+    display: block;
     width: 180px;
     max-width: 100%;
     height: auto;
@@ -71,14 +69,19 @@ footer {
     border-radius: 8px;
 }
 
+footer {
+    margin-top: 60px;
+    font-size: 0.9em;
+    color: #555;
+}
+
 @media (max-width: 650px) {
-    .intro {
+    #about .intro {
         padding-right: 0;
     }
 
-    .profile-photo {
+    #about .profile-photo {
         float: none;
-        display: block;
         width: 180px;
         margin: 0 auto 20px;
     }
