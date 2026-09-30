@@ -65,11 +65,21 @@ footer {
 .profile-photo {
     float: right;
     width: 240px;
+    max-width: 100%;
     height: auto;
     margin: 0 0 20px 30px;
     border-radius: 8px;
 }
 
-#about {
-    display: flow-root;
+@media (max-width: 650px) {
+    .intro {
+        padding-right: 0;
+    }
+
+    .profile-photo {
+        float: none;
+        display: block;
+        width: 220px;
+        margin: 0 auto 20px;
+    }
 }
