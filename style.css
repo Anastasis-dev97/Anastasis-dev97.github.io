@@ -86,3 +86,40 @@ footer {
         margin: 0 auto 20px;
     }
 }
+
+/* Keep the photo entirely above Short Bio. */
+#about .intro {
+    display: flow-root;
+    padding-right: 40px;
+}
+
+#about .profile-photo {
+    float: right;
+    display: block;
+    width: 180px;
+    height: auto;
+    margin: 0 0 20px 30px;
+    border-radius: 8px;
+}
+
+/* Place the dividing line above Short Bio. */
+#about > h2 {
+    clear: both;
+    border-bottom: none;
+    border-top: 1px solid #ccc;
+    padding-top: 18px;
+    padding-bottom: 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+    #about .intro {
+        padding-right: 0;
+    }
+
+    #about .profile-photo {
+        float: none;
+        width: 180px;
+        margin: 0 auto 20px;
+    }
+}
