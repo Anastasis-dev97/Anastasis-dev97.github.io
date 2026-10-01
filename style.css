@@ -1,65 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-family: 'Courier New', monospace;
     background: #f7f7f7;
     color: #111;
     line-height: 1.6;
 }
 
-.page,
-.container {
-    max-width: 800px;
+.page {
+    max-width: 900px;
     margin: 40px auto;
-    padding: 0 20px;
+    padding: 0 24px;
 }
 
-header {
-    margin-bottom: 40px;
-}
-
-h1 {
-    margin-bottom: 20px;
-    font-size: 2.2em;
-}
-
-.subtitle {
-    margin-top: 5px;
-    color: #555;
-}
-
-nav {
-    margin-top: 20px;
-    padding-left: 10px;
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 40px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ccc;
 }
 
-nav a {
-    text-decoration: none;
+.navbar a {
     color: #111;
     font-weight: 500;
-    font-size: 16px;
-    transition: color 0.3s ease;
+    text-decoration: none;
 }
 
-nav a:hover {
+a {
+    color: #2867a4;
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
-h2 {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-    margin-top: 40px;
+h1 {
+    margin: 28px 0 20px;
+    font-size: 2.2em;
+    line-height: 1.2;
 }
 
-/* Contains the photo above Short Bio. */
-#about .intro {
+h2 {
+    margin: 24px 0 16px;
+    padding-top: 18px;
+    border-top: 1px solid #ccc;
+    font-size: 1.4em;
+}
+
+p {
+    margin: 0 0 18px;
+}
+
+/* Contains the photo so Short Bio starts below it. */
+.intro {
     display: flow-root;
     padding-right: 40px;
 }
 
-#about .profile-photo {
+/* Small photo on the right, with text wrapping beside it. */
+.profile-photo {
     float: right;
     display: block;
     width: 180px;
@@ -69,57 +75,30 @@ h2 {
     border-radius: 8px;
 }
 
-footer {
-    margin-top: 60px;
-    font-size: 0.9em;
-    color: #555;
+#contact {
+    margin-top: 32px;
 }
 
 @media (max-width: 650px) {
-    #about .intro {
+    .page {
+        margin: 24px auto;
+        padding: 0 20px;
+    }
+
+    .navbar {
+        gap: 24px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .intro {
         padding-right: 0;
     }
 
-    #about .profile-photo {
+    .profile-photo {
         float: none;
-        width: 180px;
-        margin: 0 auto 20px;
-    }
-}
-
-/* Keep the photo entirely above Short Bio. */
-#about .intro {
-    display: flow-root;
-    padding-right: 40px;
-}
-
-#about .profile-photo {
-    float: right;
-    display: block;
-    width: 180px;
-    height: auto;
-    margin: 0 0 20px 30px;
-    border-radius: 8px;
-}
-
-/* Place the dividing line above Short Bio. */
-#about > h2 {
-    clear: both;
-    border-bottom: none;
-    border-top: 1px solid #ccc;
-    padding-top: 18px;
-    padding-bottom: 0;
-    margin-top: 20px;
-}
-
-@media (max-width: 650px) {
-    #about .intro {
-        padding-right: 0;
-    }
-
-    #about .profile-photo {
-        float: none;
-        width: 180px;
-        margin: 0 auto 20px;
+        margin: 0 auto 24px;
     }
 }
