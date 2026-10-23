@@ -1,0 +1,66 @@
+/* Small, site-specific additions to the al-folio runtime. */
+:root { --global-text-color-light: #66666d; }
+html[data-theme="dark"] { --global-text-color-light: #aaaab2; }
+.post-header { margin-bottom: 2rem; }
+.post-header .desc { margin-top: .65rem; }
+.post article { line-height: 1.7; }
+.profile { margin-left: 2.6rem; margin-bottom: 1.5rem; }
+.profile img { box-shadow: none !important; border-radius: 5px !important; }
+.profile .more-info { font-family: inherit; font-size: .82rem; color: var(--global-text-color-light); text-align: right; padding-top: .4rem; }
+.profile .more-info p { margin: 0; }
+.current-focus { border-left: 2px solid var(--global-theme-color); padding-left: 1.15rem; margin: 1.7rem 0 2rem; }
+.current-focus p { margin: .55rem 0; }
+.current-focus p:last-child { font-size: .9rem; }
+.section-label { display: block; font-size: .73rem; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--global-text-color-light); }
+.home-section { clear: both; margin-top: 2.6rem; }
+.home-section h2, .content-section h2 { margin-bottom: 1.1rem; font-size: 1.65rem; font-weight: 400; }
+.section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
+.section-heading > a { font-size: .86rem; white-space: nowrap; }
+.education-row { display: grid; grid-template-columns: 115px minmax(0,1fr); gap: 1.25rem; margin-bottom: 1rem; }
+.entry-date { font-size: .85rem; color: var(--global-text-color-light); padding-top: .15rem; }
+.entry-title { font-size: 1rem; font-weight: 500; line-height: 1.5; margin: 0 0 .2rem; }
+.entry-detail { color: var(--global-text-color-light); font-size: .9rem; line-height: 1.6; margin: 0; }
+.education-row .entry-detail a { color: inherit; }
+.education-row .entry-detail a:hover { color: var(--global-theme-color); }
+.section-more { margin-top: 1.3rem; font-size: .9rem; }
+.contact-section { padding-top: 1.8rem; border-top: 1px solid var(--global-divider-color); }
+.contact-section p { margin-bottom: .45rem; }
+.contact-address { font-family: "Roboto Mono", monospace; font-size: .92rem; overflow-wrap: anywhere; }
+.contact-links { display: flex; align-items: center; gap: 1rem; font-size: .9rem; padding-top: .8rem; }
+.contact-links i { margin-right: .3rem; }
+.topic-list { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.4rem 0 2rem; }
+.topic-list span { padding: .3rem .65rem; font-size: .79rem; border: 1px solid var(--global-divider-color); border-radius: 3px; color: var(--global-text-color-light); }
+.post article > h2 { font-size: 1.65rem; font-weight: 400; margin-top: 2rem; }
+.paper-entry { margin: 1rem 0 2rem; padding: 1.2rem 0 1.3rem 1.3rem; border-left: 2px solid var(--global-theme-color); }
+.status-label { display: inline-block; font-size: .73rem; font-weight: 500; letter-spacing: .07em; text-transform: uppercase; color: var(--global-theme-color); margin-bottom: .65rem; }
+.paper-entry h3, .thesis-entry h3 { font-size: 1.12rem; font-weight: 500; line-height: 1.5; margin: 0 0 .6rem; }
+.paper-authors { color: var(--global-text-color-light); font-size: .94rem; margin: 0; }
+.thesis-entry { margin: 1.5rem 0; }
+.thesis-entry > .entry-date { display: block; margin-bottom: .5rem; }
+.thesis-entry p { font-size: .93rem; }
+.section-links { display: flex; flex-wrap: wrap; gap: 1.5rem; font-size: .88rem; margin-bottom: 2.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--global-divider-color); }
+.year-heading { color: var(--global-theme-color); font-size: 1.2rem; margin: 1.6rem 0 1.2rem; }
+.talk-row { display: grid; grid-template-columns: 142px minmax(0,1fr); gap: 1.3rem; margin-bottom: 1.5rem; }
+.talk-row.compact { margin-bottom: 1.1rem; }
+.content-section { margin-top: 3rem; }
+.teaching-entry { margin: 2rem 0 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--global-divider-color); }
+.teaching-entry h2 { font-size: 1.65rem; font-weight: 400; margin: .75rem 0 .5rem; }
+.teaching-institution { font-weight: 500; margin-bottom: .5rem; }
+[id] { scroll-margin-top: 5rem; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+@media (max-width: 575px) {
+  .post-header .post-title { font-size: 2rem; line-height: 1.25; }
+  .profile { float: none !important; width: 100%; max-width: 290px; margin: 0 auto 1.8rem; }
+  .profile .more-info { text-align: center; }
+  .education-row { grid-template-columns: 88px minmax(0,1fr); gap: .8rem; }
+  .talk-row { grid-template-columns: 1fr; gap: .25rem; }
+  .talk-row .entry-date { font-size: .78rem; }
+  .contact-links { flex-wrap: wrap; }
+  .section-links { gap: .65rem 1.2rem; }
+}
+@media print {
+  #navbar, footer, #back-to-top, .section-links { display: none !important; }
+  body { padding: 0 !important; background: #fff !important; color: #111 !important; }
+  .container { width: 100% !important; max-width: none !important; }
+  .teaching-entry, .talk-row, .paper-entry { break-inside: avoid; }
+}

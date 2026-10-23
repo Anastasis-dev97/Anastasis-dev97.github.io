@@ -1,0 +1,63 @@
+cv:
+  name: Anastasios Fotiadis
+  label: PhD student in mathematics
+  email: familyname @ math dot univ-lyon1 dot fr
+  website: https://anastasis-dev97.github.io
+  sections:
+    Education:
+    - institution: Université Claude Bernard Lyon 1
+      studyType: PhD student
+      start_date: 2024
+      end_date: 2027
+      url: https://www.univ-lyon1.fr/
+      highlights:
+      - 'Thesis: *Infinite-dimensional Lie algebras in differential geometry and mathematical physics*.'
+      - 'Supervisor: [Leonid Ryvkin](https://ryvkin.eu/).'
+    - institution: Université de Bourgogne
+      studyType: M2 in Mathematical Physics (Math4Phys)
+      start_date: 2023
+      end_date: 2024
+      url: https://math.ube.fr/math4phys
+      highlights:
+      - 'Thesis: *Non-commutative Poisson-vertex and Courant-Dorfman algebras*.'
+      - 'Supervisor: [Maxime Fairon](https://mfairon.perso.math.cnrs.fr/).'
+    - institution: Aristotle University of Thessaloniki
+      studyType: M.Sc. in Pure Mathematics
+      start_date: 2021
+      end_date: 2023
+      highlights:
+      - 'Thesis: *Curvature and Torsion in Graded Geometry*.'
+      - 'Supervisor: [Panagiotis Batakidis](https://sites.google.com/view/panagiotis-batakidis/home).'
+    - institution: Aristotle University of Thessaloniki
+      studyType: B.Sc. in Mathematics
+      start_date: 2015
+      end_date: 2021
+    Research interests:
+    - bullet: Differential and Poisson geometry; singular foliations; Lie groupoids and Lie algebroids; higher structures;
+        mathematical physics and infinite-dimensional geometry.
+    - bullet: 'Current work: linearization of dg-manifolds and Lie ∞-algebroids around singular points and submanifolds.'
+    Work in preparation:
+    - bullet: '**Bas Janssens, Stefan Haller, Cornelia Vizman, and Anastasios Fotiadis.** *The Lie algebra of contact
+        vector fields is centrally closed.* In preparation.'
+    Teaching:
+    - bullet: '**Analysis 1 for informaticians** — Université Claude Bernard Lyon 1. Winter semester 2026–2027.
+        Travaux dirigés (TD).'
+    - bullet: '**Classical differential geometry I** — Aristotle University of Thessaloniki. Spring semester 2022–2023.
+        Exercise sessions. Course coordinator: [Panagiotis Batakidis](https://sites.google.com/view/panagiotis-batakidis/home).'
+    Talks:
+    - bullet: '**Linearizing in terms of dg-manifolds** — [Super (califragilisticexpialidocious) Geometry, Université
+        Lyon 1](https://www.ryvkin.eu/conferences/sg2026/). 10–12 June 2026.'
+    - bullet: '**Continuous cohomology of contact vector fields** — [MiC Seminar, Università degli Studi di Padova](https://sites.google.com/view/mathematicsinconversation/home).
+        27 January 2026.'
+    - bullet: '**Gong talk: Central extensions of contact vector fields** — [Around Singularities in Poisson Geometry,
+        IASM Hangzhou](https://www.birs.ca/events/2025/5-day-workshops/25w5442). August 2025.'
+    - bullet: '**Continuous central extensions of the Lie algebra of contact vector fields** — [Singular foliations
+        and higher structures, University of Würzburg](https://www.mathematik.uni-wuerzburg.de/en/mathematicalphysics/research/events/workshops-and-conferences/single/news/workshop-singular-foliations-and-higher-structures-in-wuerzburg/).
+        July 2025.'
+    - bullet: '**Universal central extensions of Lie algebras of vector fields** — [NOSTOS, Aristotle University
+        of Thessaloniki](https://sites.google.com/view/nostos2025/titles-abstracts). April 2025.'
+    - bullet: '**Introduction to graded Poisson geometry** — Reading seminar in ‘Algebra and geometry of the BFV
+        complex’, Aristotle University of Thessaloniki. 2022.'
+    Organization:
+    - bullet: Co-organizer of the [Graduate students' seminar](https://sites.google.com/view/studentseminar-mathauth-en/home)
+        during my master's studies in Thessaloniki.
