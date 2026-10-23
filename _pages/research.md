@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research
+title: Research
 permalink: /research/
 nav: true
 nav_order: 1
@@ -9,19 +9,19 @@ redirect_from:
   - /research.html
 ---
 
-## research interests
+## Research interests
 
 My research interests are in differential geometry, especially Poisson geometry; higher structures, including Lie groupoids and Lie algebroids; singular foliations; and mathematical physics.
 
 <div class="topic-list" aria-label="Research areas"><span>Poisson geometry</span><span>Singular foliations</span><span>Higher structures</span><span>Infinite-dimensional geometry</span></div>
 
-## current work
+## Current work
 
 I am currently thinking about the linearization of **dg-manifolds and Lie ∞-algebroids** around their singular points or submanifolds.
 
 My PhD thesis, *Infinite-dimensional Lie algebras in differential geometry and mathematical physics*, is supervised by [Leonid Ryvkin](https://ryvkin.eu/) at Université Claude Bernard Lyon 1.
 
-## publications
+## Publications
 
 <article class="paper-entry" aria-labelledby="paper-contact-fields">
   <span class="status-label">In preparation</span>
@@ -29,7 +29,7 @@ My PhD thesis, *Infinite-dimensional Lie algebras in differential geometry and m
   <p class="paper-authors">Bas Janssens, Stefan Haller, Cornelia Vizman, and <strong>Anastasios Fotiadis</strong></p>
 </article>
 
-## master's theses
+## Master's theses
 
 <article class="thesis-entry">
   <span class="entry-date">2024 · M2 in Mathematical Physics</span>

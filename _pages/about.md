@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD student in mathematics · <a href="https://www.univ-lyon1.fr/">Université Claude Bernard Lyon 1</a>
 profile:
@@ -30,7 +30,7 @@ Linearization of dg-manifolds and Lie ∞-algebroids around singular points and 
 </div>
 
 <section class="home-section biography" aria-labelledby="short-bio">
-  <h2 id="short-bio">short bio</h2>
+  <h2 id="short-bio">Short bio</h2>
   <div class="education-list">
     {% for item in site.data.education %}
     <div class="education-row">
@@ -46,7 +46,7 @@ Linearization of dg-manifolds and Lie ∞-algebroids around singular points and 
 </section>
 
 <section class="home-section" aria-labelledby="recent-talks">
-  <div class="section-heading"><h2 id="recent-talks">recent talks</h2><a href="{{ '/talks/' | relative_url }}">View all →</a></div>
+  <div class="section-heading"><h2 id="recent-talks">Recent talks</h2><a href="{{ '/talks/' | relative_url }}">View all →</a></div>
   {% for item in site.data.talks limit:2 %}
   <div class="talk-row compact">
     <span class="entry-date">{{ item.date }}</span>
@@ -56,7 +56,7 @@ Linearization of dg-manifolds and Lie ∞-algebroids around singular points and 
 </section>
 
 <section class="home-section contact-section" aria-labelledby="contact">
-  <h2 id="contact">contact</h2>
+  <h2 id="contact">Contact</h2>
   <p>The best way to reach me is by email.</p>
   <p class="contact-address">familyname @ math dot univ-lyon1 dot fr</p>
   <p class="contact-links"><a href="https://github.com/anastasis-dev97"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a><span aria-hidden="true">·</span><a href="https://www.univ-lyon1.fr/">Université Lyon 1 ↗</a></p>
